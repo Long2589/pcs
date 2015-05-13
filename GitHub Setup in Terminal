@@ -1,0 +1,289 @@
+Last login: Thu May  7 15:45:42 on console
+Sarahs-MacBook-Pro:~ Sarah$ pwd
+/Users/Sarah
+Sarahs-MacBook-Pro:~ Sarah$ git
+xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
+Sarahs-MacBook-Pro:~ Sarah$ git --version
+xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
+Sarahs-MacBook-Pro:~ Sarah$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+Sarahs-MacBook-Pro:~ Sarah$ git --version
+git version 1.9.5 (Apple Git-50.3)
+Sarahs-MacBook-Pro:~ Sarah$ git config --global user.name
+Sarahs-MacBook-Pro:~ Sarah$ git config --global user.name "sarah_long"
+Sarahs-MacBook-Pro:~ Sarah$ git config user email
+error: key does not contain a section: user
+Sarahs-MacBook-Pro:~ Sarah$ git config --global user.email
+Sarahs-MacBook-Pro:~ Sarah$ git config --global user.email sarah.eliza.long@gmail.com
+Sarahs-MacBook-Pro:~ Sarah$ git config --glabal core.editor subl
+error: unknown option `glabal'
+usage: git config [options]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color <slot>    find the color configured: [default]
+    --get-colorbool <slot>
+                          find the color setting: [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+
+Other
+    -z, --null            terminate values with NUL byte
+    --includes            respect include directives on lookup
+
+Sarahs-MacBook-Pro:~ Sarah$ git config --global user.name
+sarah_long
+Sarahs-MacBook-Pro:~ Sarah$ cd Desktop//Website Stuff/
+-bash: cd: Desktop//Website: No such file or directory
+Sarahs-MacBook-Pro:~ Sarah$ cd Documents//Website Stuff//
+-bash: cd: Documents//Website: No such file or directory
+Sarahs-MacBook-Pro:~ Sarah$ cd Documents
+Sarahs-MacBook-Pro:Documents Sarah$ ls
+01 Love Makes The World Go Round.mp3
+01 Made To Stray.mp3
+02 Dirty Mind Melt.mp3
+02 Open Eye Signal (Nosaj Thing Remix).mp3
+03 Can't Stop Now.mp3
+03 Could I Be.mp3
+03 Joy me.mp3
+03 Sleepless Feat. Jezzabell Doran.mp3
+03 Suesse Cheques.mp3
+03 You Bring Me Joy.mp3
+04 Mind On You (feat. Brenda D).m4a
+04 Postpone.mp3
+05 Uwa the Peacock (Eki Ko Inuen Uwa).mp3
+06 Tahoultine.mp3
+07 Without You.mp3
+08 Tabloid Sores (Nosaj Thing Remix).mp3
+09 Safe in Here.mp3
+11 Sociber.mp3
+2-10 Fighting Is Futile (Kink Extended Dub)[Kink Extended Dub].mp3
+4 Pillars Brainstorming Guide_by Jackie Johnstone - Google Docs_files
+ANCIENT-HEAT-SAM-PIRNAK_X5A1372.jpg
+ANCIENT-HEAT-SAM-PIRNAK_X5A1672.jpg
+ANCIENT-HEAT-SAM-PIRNAK_X5A1700.jpg
+April Budget.numbers
+Bamboo CL:Resume.pages
+Chez Pastry Display Cards v.1.pages
+Chez Pastry Display Cards v.2 copy.pages
+Creativity Coaching
+Creativity Coaching Week 5.pages
+Dubspot Level1_Week3.pages
+Equifax_FACT_Rpt_05162014.pdf
+Experian - Report Summary.pdf
+Forget (Shlohmo Remix).mp3
+Individual Health Plan Assessment - SarahL.pdf
+Individual Health Plan Assessment - word.pages
+Job Stuff
+Lesson 2.pages
+Native Instruments
+Notice.pages
+Right Brain Resume.pages
+Sarah Long Resume.pdf
+Sarah's Dream Bio.pages
+SarahLong_Resume.pdf
+The $100 Startup Myth copy.pages
+Untitled.pdf
+Website Stuff
+annualcreditreport.transunion.pdf
+letter to Hanna.pages
+pcs
+Sarahs-MacBook-Pro:Documents Sarah$ cd Website Stuff
+-bash: cd: Website: No such file or directory
+Sarahs-MacBook-Pro:Documents Sarah$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+Sarahs-MacBook-Pro:Documents Sarah$ Website Stuff
+-bash: Website: command not found
+Sarahs-MacBook-Pro:Documents Sarah$ $home
+Sarahs-MacBook-Pro:Documents Sarah$ cd Documents
+-bash: cd: Documents: No such file or directory
+Sarahs-MacBook-Pro:Documents Sarah$ index.html
+-bash: index.html: command not found
+Sarahs-MacBook-Pro:Documents Sarah$ //
+-bash: //: is a directory
+Sarahs-MacBook-Pro:Documents Sarah$ ..
+-bash: ..: command not found
+Sarahs-MacBook-Pro:Documents Sarah$ ../
+-bash: ../: is a directory
+Sarahs-MacBook-Pro:Documents Sarah$ ls
+01 Love Makes The World Go Round.mp3
+01 Made To Stray.mp3
+02 Dirty Mind Melt.mp3
+02 Open Eye Signal (Nosaj Thing Remix).mp3
+03 Can't Stop Now.mp3
+03 Could I Be.mp3
+03 Joy me.mp3
+03 Sleepless Feat. Jezzabell Doran.mp3
+03 Suesse Cheques.mp3
+03 You Bring Me Joy.mp3
+04 Mind On You (feat. Brenda D).m4a
+04 Postpone.mp3
+05 Uwa the Peacock (Eki Ko Inuen Uwa).mp3
+06 Tahoultine.mp3
+07 Without You.mp3
+08 Tabloid Sores (Nosaj Thing Remix).mp3
+09 Safe in Here.mp3
+11 Sociber.mp3
+2-10 Fighting Is Futile (Kink Extended Dub)[Kink Extended Dub].mp3
+4 Pillars Brainstorming Guide_by Jackie Johnstone - Google Docs_files
+ANCIENT-HEAT-SAM-PIRNAK_X5A1372.jpg
+ANCIENT-HEAT-SAM-PIRNAK_X5A1672.jpg
+ANCIENT-HEAT-SAM-PIRNAK_X5A1700.jpg
+April Budget.numbers
+Bamboo CL:Resume.pages
+Chez Pastry Display Cards v.1.pages
+Chez Pastry Display Cards v.2 copy.pages
+Creativity Coaching
+Creativity Coaching Week 5.pages
+Dubspot Level1_Week3.pages
+Equifax_FACT_Rpt_05162014.pdf
+Experian - Report Summary.pdf
+Forget (Shlohmo Remix).mp3
+Individual Health Plan Assessment - SarahL.pdf
+Individual Health Plan Assessment - word.pages
+Job Stuff
+Lesson 2.pages
+Native Instruments
+Notice.pages
+Right Brain Resume.pages
+Sarah Long Resume.pdf
+Sarah's Dream Bio.pages
+SarahLong_Resume.pdf
+The $100 Startup Myth copy.pages
+Untitled.pdf
+Website Stuff
+annualcreditreport.transunion.pdf
+letter to Hanna.pages
+pcs
+Sarahs-MacBook-Pro:Documents Sarah$ ~Website Stuff
+-bash: ~Website: command not found
+Sarahs-MacBook-Pro:Documents Sarah$ cd website stuff
+-bash: cd: website: No such file or directory
+Sarahs-MacBook-Pro:Documents Sarah$ cd Documents/Website Stuff/index.html
+-bash: cd: Documents/Website: No such file or directory
+Sarahs-MacBook-Pro:Documents Sarah$ cd Documents/ Website Stuff
+-bash: cd: Documents/: No such file or directory
+Sarahs-MacBook-Pro:Documents Sarah$ cd
+Sarahs-MacBook-Pro:~ Sarah$ cd pcs
+-bash: cd: pcs: No such file or directory
+Sarahs-MacBook-Pro:~ Sarah$ cd documents/pcs
+Sarahs-MacBook-Pro:pcs Sarah$ ls -a
+.		..		index.html	main1.css
+Sarahs-MacBook-Pro:pcs Sarah$ git init
+Initialized empty Git repository in /Users/Sarah/Documents/pcs/.git/
+Sarahs-MacBook-Pro:pcs Sarah$ ls -a
+.		..		.git		index.html	main1.css
+Sarahs-MacBook-Pro:pcs Sarah$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	index.html
+	main1.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+Sarahs-MacBook-Pro:pcs Sarah$ git add index.html
+Sarahs-MacBook-Pro:pcs Sarah$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	main1.css
+
+Sarahs-MacBook-Pro:pcs Sarah$ git add main1.css
+Sarahs-MacBook-Pro:pcs Sarah$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   index.html
+	new file:   main1.css
+
+Sarahs-MacBook-Pro:pcs Sarah$ git commit -m "initial commit"
+[master (root-commit) 3f3fc3f] initial commit
+ 2 files changed, 39 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 main1.css
+Sarahs-MacBook-Pro:pcs Sarah$ git status
+On branch master
+nothing to commit, working directory clean
+Sarahs-MacBook-Pro:pcs Sarah$ git log
+commit 3f3fc3ff629717f4321760d6d02da9d17b2cd0af
+Author: sarah_long <sarah.eliza.long@gmail.com>
+Date:   Thu May 7 18:45:51 2015 -0700
+
+    initial commit
+Sarahs-MacBook-Pro:pcs Sarah$ git remote add origin https://github.com/Long2589/pcs.git
+Sarahs-MacBook-Pro:pcs Sarah$ git push origin master
+Username for 'https://github.com': Long2589
+Password for 'https://Long2589@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 677 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/Long2589/pcs.git
+ * [new branch]      master -> master
+Sarahs-MacBook-Pro:pcs Sarah$ git branch
+* master
+Sarahs-MacBook-Pro:pcs Sarah$ git branch gh-pages
+Sarahs-MacBook-Pro:pcs Sarah$ git branch
+  gh-pages
+* master
+Sarahs-MacBook-Pro:pcs Sarah$ git checkout gh-pages
+Switched to branch 'gh-pages'
+Sarahs-MacBook-Pro:pcs Sarah$ git branch
+* gh-pages
+  master
+Sarahs-MacBook-Pro:pcs Sarah$  
+
+git config --global color.ui auto
+
+git status
