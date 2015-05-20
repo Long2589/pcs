@@ -1,0 +1,43 @@
+/**********************
+GENERAL
+**********************/
+
+body {
+	color: #bc36e0;
+	background-color: #e8f3f8;
+}
+
+ul {
+	list-style: none;
+}
+/**********************
+HEADING
+**********************/
+
+
+li.contact {
+	display: inline;
+	margin-right: 10px;
+}
+
+
+/**********************
+BODY
+**********************/
+
+nav {
+	width: 33%;
+	float: left;
+	border-color: #0c5565;
+	border-width: 10px;
+}
+
+section {
+	width: 67%;
+	float: left;
+}
+
+img.small {
+	width: 200px;
+	height: 150px;
+}
